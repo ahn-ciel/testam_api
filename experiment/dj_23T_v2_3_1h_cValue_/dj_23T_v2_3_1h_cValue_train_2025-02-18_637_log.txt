@@ -1,0 +1,19 @@
+2025-02-18 07:07:46,475 [INFO]: Start Deterministic Training with seed 99
+2025-02-18 07:07:46,611 [INFO]: Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2025-02-18 07:07:46,611 [INFO]: NumExpr defaulting to 16 threads.
+2025-02-18 07:08:17,364 [INFO]: Namespace(device='cuda:0', data='data/dj_23T_v2_3_1h_cValue', adjdata='data/ciel/dongjakITS_v2_adjdata.pkl', adjtype='doubletransition', out_dim=3, nhid=32, in_dim=3, num_nodes=637, batch_size=32, dropout=0.3, epochs=100, print_every=50, seed=99, save='experiment/dj_23T_v2_3_1h_cValue/dj_23T_v2_3_1h_cValue', expid=1, load_path=None, patience=15, lr_mul=1, n_warmup_steps=4000, quantile=0.7, is_quantile=False, warmup_epoch=0)
+2025-02-18 07:08:17,365 [INFO]: train data scaler: <util.StandardScaler object at 0x7f5b1eb31a20>
+2025-02-18 07:29:34,930 [INFO]: Start Deterministic Training with seed 99
+2025-02-18 07:29:35,064 [INFO]: Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2025-02-18 07:29:35,064 [INFO]: NumExpr defaulting to 16 threads.
+2025-02-18 07:30:05,440 [INFO]: Namespace(device='cuda:0', data='data/dj_23T_v2_3_1h_cValue', adjdata='data/ciel/dongjakITS_v2_adjdata.pkl', adjtype='doubletransition', out_dim=3, nhid=32, in_dim=3, num_nodes=637, batch_size=32, dropout=0.3, epochs=100, print_every=50, seed=99, save='experiment/dj_23T_v2_3_1h_cValue/dj_23T_v2_3_1h_cValue', expid=1, load_path=None, patience=15, lr_mul=1, n_warmup_steps=4000, quantile=0.7, is_quantile=False, warmup_epoch=0)
+2025-02-18 07:30:05,441 [INFO]: train data scaler: <util.StandardScaler object at 0x7f2252b31ae0>
+2025-02-18 07:30:06,483 [INFO]: Train the model with 262545 parameters
+2025-02-18 07:30:06,483 [INFO]: start training...
+2025-02-18 07:32:51,246 [INFO]: Start Deterministic Training with seed 99
+2025-02-18 07:32:51,380 [INFO]: Note: NumExpr detected 40 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+2025-02-18 07:32:51,380 [INFO]: NumExpr defaulting to 16 threads.
+2025-02-18 07:33:21,715 [INFO]: Namespace(device='cuda:0', data='data/dj_23T_v2_3_1h_cValue', adjdata='data/ciel/dongjakITS_v2_adjdata.pkl', adjtype='doubletransition', out_dim=3, nhid=32, in_dim=3, num_nodes=637, batch_size=32, dropout=0.3, epochs=100, print_every=50, seed=99, save='experiment/dj_23T_v2_3_1h_cValue/dj_23T_v2_3_1h_cValue', expid=1, load_path=None, patience=15, lr_mul=1, n_warmup_steps=4000, quantile=0.7, is_quantile=False, warmup_epoch=0)
+2025-02-18 07:33:21,715 [INFO]: train data scaler: <util.StandardScaler object at 0x7f3a97239ae0>
+2025-02-18 07:33:22,766 [INFO]: Train the model with 262545 parameters
+2025-02-18 07:33:22,766 [INFO]: start training...

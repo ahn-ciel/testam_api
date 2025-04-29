@@ -1,0 +1,131 @@
+2024-11-07 03:00:15,881 [INFO]: Start Deterministic Training with seed 99
+2024-11-07 03:00:17,186 [INFO]: Namespace(device='cuda:0', data='data/ciel-dj_P_3_1h/', adjdata=None, adjtype='doubletransition', out_dim=3, nhid=32, in_dim=3, num_nodes=376, batch_size=16, dropout=0.3, epochs=100, print_every=50, seed=99, save='experiment/ciel-dj_P_3_1h', expid=1, load_path=None, patience=15, lr_mul=1, n_warmup_steps=4000, quantile=0.7, is_quantile=False, warmup_epoch=0)
+2024-11-07 03:00:17,187 [INFO]: train data scaler: <util.StandardScaler object at 0x7fcbf7b43730>
+2024-11-07 03:00:18,165 [INFO]: Train the model with 217929 parameters
+2024-11-07 03:00:18,165 [INFO]: start training...
+2024-11-07 03:00:18,937 [INFO]: Iter: 000, Train Loss: 4.3284, Train MAPE: inf, Train RMSE: 5.6622
+2024-11-07 03:00:23,560 [INFO]: Iter: 050, Train Loss: 2.9025, Train MAPE: inf, Train RMSE: 3.6796
+2024-11-07 03:00:28,164 [INFO]: Iter: 100, Train Loss: 1.9999, Train MAPE: inf, Train RMSE: 2.8995
+2024-11-07 03:00:32,853 [INFO]: Iter: 150, Train Loss: 1.5888, Train MAPE: inf, Train RMSE: 2.1708
+2024-11-07 03:00:37,130 [INFO]: Epoch: 001, Inference Time: 0.7604 secs
+2024-11-07 03:00:37,131 [INFO]: Epoch: 001, Train Loss: 2.4299, Train MAPE: inf, Train RMSE: 3.3890, Valid Loss: 0.6429, Valid MAPE: inf, Valid RMSE: 1.7050, Training Time: 18.2048/epoch
+2024-11-07 03:00:37,373 [INFO]: Iter: 000, Train Loss: 1.5279, Train MAPE: inf, Train RMSE: 2.6327
+2024-11-07 03:00:42,041 [INFO]: Iter: 050, Train Loss: 1.3093, Train MAPE: inf, Train RMSE: 2.1798
+2024-11-07 03:00:46,732 [INFO]: Iter: 100, Train Loss: 1.3111, Train MAPE: inf, Train RMSE: 2.6704
+2024-11-07 03:00:51,461 [INFO]: Iter: 150, Train Loss: 1.1648, Train MAPE: inf, Train RMSE: 2.3907
+2024-11-07 03:00:55,815 [INFO]: Epoch: 002, Inference Time: 0.7584 secs
+2024-11-07 03:00:55,816 [INFO]: Epoch: 002, Train Loss: 1.2752, Train MAPE: inf, Train RMSE: 2.3321, Valid Loss: 0.4851, Valid MAPE: inf, Valid RMSE: 1.6527, Training Time: 17.9075/epoch
+2024-11-07 03:00:56,069 [INFO]: Iter: 000, Train Loss: 1.1605, Train MAPE: inf, Train RMSE: 2.1812
+2024-11-07 03:01:00,771 [INFO]: Iter: 050, Train Loss: 1.1336, Train MAPE: inf, Train RMSE: 2.1631
+2024-11-07 03:01:05,391 [INFO]: Iter: 100, Train Loss: 1.1281, Train MAPE: inf, Train RMSE: 1.9783
+2024-11-07 03:01:10,062 [INFO]: Iter: 150, Train Loss: 0.9746, Train MAPE: inf, Train RMSE: 1.8291
+2024-11-07 03:01:14,365 [INFO]: Epoch: 003, Inference Time: 0.7613 secs
+2024-11-07 03:01:14,366 [INFO]: Epoch: 003, Train Loss: 1.0838, Train MAPE: inf, Train RMSE: 2.0438, Valid Loss: 0.4222, Valid MAPE: inf, Valid RMSE: 1.2840, Training Time: 17.7701/epoch
+2024-11-07 03:01:14,613 [INFO]: Iter: 000, Train Loss: 1.0979, Train MAPE: inf, Train RMSE: 1.7389
+2024-11-07 03:01:18,339 [INFO]: Iter: 050, Train Loss: 0.9287, Train MAPE: inf, Train RMSE: 1.5020
+2024-11-07 03:01:21,956 [INFO]: Iter: 100, Train Loss: 0.9349, Train MAPE: inf, Train RMSE: 1.3702
+2024-11-07 03:01:25,568 [INFO]: Iter: 150, Train Loss: 1.0376, Train MAPE: inf, Train RMSE: 1.7283
+2024-11-07 03:01:29,077 [INFO]: Epoch: 004, Inference Time: 0.7569 secs
+2024-11-07 03:01:29,077 [INFO]: Epoch: 004, Train Loss: 1.0047, Train MAPE: inf, Train RMSE: 1.6805, Valid Loss: 0.4605, Valid MAPE: inf, Valid RMSE: 1.2145, Training Time: 13.9336/epoch
+2024-11-07 03:01:29,284 [INFO]: Iter: 000, Train Loss: 0.9625, Train MAPE: inf, Train RMSE: 1.5902
+2024-11-07 03:01:32,902 [INFO]: Iter: 050, Train Loss: 0.9857, Train MAPE: inf, Train RMSE: 1.4873
+2024-11-07 03:01:36,521 [INFO]: Iter: 100, Train Loss: 0.9481, Train MAPE: inf, Train RMSE: 1.6047
+2024-11-07 03:01:40,136 [INFO]: Iter: 150, Train Loss: 1.0089, Train MAPE: inf, Train RMSE: 1.6710
+2024-11-07 03:01:43,641 [INFO]: Epoch: 005, Inference Time: 0.7588 secs
+2024-11-07 03:01:43,641 [INFO]: Epoch: 005, Train Loss: 0.9425, Train MAPE: inf, Train RMSE: 1.5630, Valid Loss: 0.5133, Valid MAPE: inf, Valid RMSE: 1.1969, Training Time: 13.8042/epoch
+2024-11-07 03:01:43,846 [INFO]: Iter: 000, Train Loss: 0.8891, Train MAPE: inf, Train RMSE: 1.5253
+2024-11-07 03:01:47,458 [INFO]: Iter: 050, Train Loss: 0.9145, Train MAPE: inf, Train RMSE: 1.4547
+2024-11-07 03:01:51,072 [INFO]: Iter: 100, Train Loss: 0.9474, Train MAPE: inf, Train RMSE: 1.4707
+2024-11-07 03:01:54,684 [INFO]: Iter: 150, Train Loss: 0.8300, Train MAPE: inf, Train RMSE: 1.1618
+2024-11-07 03:01:58,208 [INFO]: Epoch: 006, Inference Time: 0.7597 secs
+2024-11-07 03:01:58,209 [INFO]: Epoch: 006, Train Loss: 0.9077, Train MAPE: inf, Train RMSE: 1.4921, Valid Loss: 0.4606, Valid MAPE: inf, Valid RMSE: 1.1461, Training Time: 13.8065/epoch
+2024-11-07 03:01:58,413 [INFO]: Iter: 000, Train Loss: 0.7905, Train MAPE: inf, Train RMSE: 1.1890
+2024-11-07 03:02:02,031 [INFO]: Iter: 050, Train Loss: 0.9613, Train MAPE: inf, Train RMSE: 1.7842
+2024-11-07 03:02:05,646 [INFO]: Iter: 100, Train Loss: 0.8803, Train MAPE: inf, Train RMSE: 1.5172
+2024-11-07 03:02:09,261 [INFO]: Iter: 150, Train Loss: 0.8787, Train MAPE: inf, Train RMSE: 1.2978
+2024-11-07 03:02:12,764 [INFO]: Epoch: 007, Inference Time: 0.7582 secs
+2024-11-07 03:02:12,765 [INFO]: Epoch: 007, Train Loss: 0.8901, Train MAPE: inf, Train RMSE: 1.4478, Valid Loss: 0.5476, Valid MAPE: inf, Valid RMSE: 1.2133, Training Time: 13.7975/epoch
+2024-11-07 03:02:12,971 [INFO]: Iter: 000, Train Loss: 0.8365, Train MAPE: inf, Train RMSE: 1.4466
+2024-11-07 03:02:16,591 [INFO]: Iter: 050, Train Loss: 0.7737, Train MAPE: inf, Train RMSE: 1.0639
+2024-11-07 03:02:20,214 [INFO]: Iter: 100, Train Loss: 0.9022, Train MAPE: inf, Train RMSE: 1.4550
+2024-11-07 03:02:23,825 [INFO]: Iter: 150, Train Loss: 0.8967, Train MAPE: inf, Train RMSE: 1.4413
+2024-11-07 03:02:27,328 [INFO]: Epoch: 008, Inference Time: 0.7583 secs
+2024-11-07 03:02:27,328 [INFO]: Epoch: 008, Train Loss: 0.8827, Train MAPE: inf, Train RMSE: 1.4159, Valid Loss: 0.5704, Valid MAPE: inf, Valid RMSE: 1.2155, Training Time: 13.8041/epoch
+2024-11-07 03:02:27,533 [INFO]: Iter: 000, Train Loss: 0.8255, Train MAPE: inf, Train RMSE: 1.3989
+2024-11-07 03:02:31,145 [INFO]: Iter: 050, Train Loss: 0.8446, Train MAPE: inf, Train RMSE: 1.2569
+2024-11-07 03:02:34,761 [INFO]: Iter: 100, Train Loss: 0.8530, Train MAPE: inf, Train RMSE: 1.2880
+2024-11-07 03:02:38,817 [INFO]: Iter: 150, Train Loss: 0.9027, Train MAPE: inf, Train RMSE: 1.3572
+2024-11-07 03:02:43,167 [INFO]: Epoch: 009, Inference Time: 0.7588 secs
+2024-11-07 03:02:43,168 [INFO]: Epoch: 009, Train Loss: 0.8755, Train MAPE: inf, Train RMSE: 1.3913, Valid Loss: 0.5286, Valid MAPE: inf, Valid RMSE: 1.1691, Training Time: 15.0799/epoch
+2024-11-07 03:02:43,401 [INFO]: Iter: 000, Train Loss: 0.8726, Train MAPE: inf, Train RMSE: 1.6623
+2024-11-07 03:02:48,115 [INFO]: Iter: 050, Train Loss: 0.8415, Train MAPE: inf, Train RMSE: 1.3353
+2024-11-07 03:02:52,743 [INFO]: Iter: 100, Train Loss: 0.8170, Train MAPE: inf, Train RMSE: 1.2420
+2024-11-07 03:02:57,567 [INFO]: Iter: 150, Train Loss: 0.8019, Train MAPE: inf, Train RMSE: 1.1992
+2024-11-07 03:03:01,935 [INFO]: Epoch: 010, Inference Time: 0.7591 secs
+2024-11-07 03:03:01,935 [INFO]: Epoch: 010, Train Loss: 0.8664, Train MAPE: inf, Train RMSE: 1.3743, Valid Loss: 0.6321, Valid MAPE: inf, Valid RMSE: 1.2583, Training Time: 18.0074/epoch
+2024-11-07 03:03:02,169 [INFO]: Iter: 000, Train Loss: 0.8694, Train MAPE: inf, Train RMSE: 1.4612
+2024-11-07 03:03:07,064 [INFO]: Iter: 050, Train Loss: 0.9162, Train MAPE: inf, Train RMSE: 1.3958
+2024-11-07 03:03:11,764 [INFO]: Iter: 100, Train Loss: 0.8589, Train MAPE: inf, Train RMSE: 1.3582
+2024-11-07 03:03:16,496 [INFO]: Iter: 150, Train Loss: 0.7994, Train MAPE: inf, Train RMSE: 1.1622
+2024-11-07 03:03:20,841 [INFO]: Epoch: 011, Inference Time: 0.7601 secs
+2024-11-07 03:03:20,842 [INFO]: Epoch: 011, Train Loss: 0.8692, Train MAPE: inf, Train RMSE: 1.3652, Valid Loss: 0.5962, Valid MAPE: inf, Valid RMSE: 1.2307, Training Time: 18.1451/epoch
+2024-11-07 03:03:21,075 [INFO]: Iter: 000, Train Loss: 0.8224, Train MAPE: inf, Train RMSE: 1.1863
+2024-11-07 03:03:25,901 [INFO]: Iter: 050, Train Loss: 0.8178, Train MAPE: inf, Train RMSE: 1.2880
+2024-11-07 03:03:30,718 [INFO]: Iter: 100, Train Loss: 0.8921, Train MAPE: inf, Train RMSE: 1.2765
+2024-11-07 03:03:35,472 [INFO]: Iter: 150, Train Loss: 0.8402, Train MAPE: inf, Train RMSE: 1.4738
+2024-11-07 03:03:39,826 [INFO]: Epoch: 012, Inference Time: 0.8436 secs
+2024-11-07 03:03:39,827 [INFO]: Epoch: 012, Train Loss: 0.8662, Train MAPE: inf, Train RMSE: 1.3605, Valid Loss: 0.5998, Valid MAPE: inf, Valid RMSE: 1.2139, Training Time: 18.1408/epoch
+2024-11-07 03:03:40,049 [INFO]: Iter: 000, Train Loss: 0.8437, Train MAPE: inf, Train RMSE: 1.4958
+2024-11-07 03:03:44,395 [INFO]: Iter: 050, Train Loss: 0.8331, Train MAPE: inf, Train RMSE: 1.2279
+2024-11-07 03:03:48,686 [INFO]: Iter: 100, Train Loss: 0.8297, Train MAPE: inf, Train RMSE: 1.2718
+2024-11-07 03:03:53,021 [INFO]: Iter: 150, Train Loss: 0.8756, Train MAPE: inf, Train RMSE: 1.3213
+2024-11-07 03:03:57,188 [INFO]: Epoch: 013, Inference Time: 0.8735 secs
+2024-11-07 03:03:57,188 [INFO]: Epoch: 013, Train Loss: 0.8610, Train MAPE: inf, Train RMSE: 1.3525, Valid Loss: 0.5661, Valid MAPE: inf, Valid RMSE: 1.2205, Training Time: 16.4868/epoch
+2024-11-07 03:03:57,419 [INFO]: Iter: 000, Train Loss: 0.8587, Train MAPE: inf, Train RMSE: 1.2443
+2024-11-07 03:04:01,762 [INFO]: Iter: 050, Train Loss: 0.8342, Train MAPE: inf, Train RMSE: 1.4607
+2024-11-07 03:04:06,128 [INFO]: Iter: 100, Train Loss: 0.8791, Train MAPE: inf, Train RMSE: 1.5346
+2024-11-07 03:04:10,441 [INFO]: Iter: 150, Train Loss: 0.8729, Train MAPE: inf, Train RMSE: 1.4635
+2024-11-07 03:04:14,622 [INFO]: Epoch: 014, Inference Time: 0.8717 secs
+2024-11-07 03:04:14,623 [INFO]: Epoch: 014, Train Loss: 0.8489, Train MAPE: inf, Train RMSE: 1.3438, Valid Loss: 0.5740, Valid MAPE: inf, Valid RMSE: 1.1956, Training Time: 16.5616/epoch
+2024-11-07 03:04:14,837 [INFO]: Iter: 000, Train Loss: 0.7900, Train MAPE: inf, Train RMSE: 1.3146
+2024-11-07 03:04:19,143 [INFO]: Iter: 050, Train Loss: 0.8731, Train MAPE: inf, Train RMSE: 1.3547
+2024-11-07 03:04:23,445 [INFO]: Iter: 100, Train Loss: 0.7825, Train MAPE: inf, Train RMSE: 1.3410
+2024-11-07 03:04:27,759 [INFO]: Iter: 150, Train Loss: 0.7280, Train MAPE: inf, Train RMSE: 1.1223
+2024-11-07 03:04:31,920 [INFO]: Epoch: 015, Inference Time: 0.8711 secs
+2024-11-07 03:04:31,921 [INFO]: Epoch: 015, Train Loss: 0.8544, Train MAPE: inf, Train RMSE: 1.3468, Valid Loss: 0.5553, Valid MAPE: inf, Valid RMSE: 1.2546, Training Time: 16.4265/epoch
+2024-11-07 03:04:32,135 [INFO]: Iter: 000, Train Loss: 0.8576, Train MAPE: inf, Train RMSE: 1.1494
+2024-11-07 03:04:36,419 [INFO]: Iter: 050, Train Loss: 0.8204, Train MAPE: inf, Train RMSE: 1.2099
+2024-11-07 03:04:40,709 [INFO]: Iter: 100, Train Loss: 0.7908, Train MAPE: inf, Train RMSE: 1.2198
+2024-11-07 03:04:45,004 [INFO]: Iter: 150, Train Loss: 0.8133, Train MAPE: inf, Train RMSE: 1.3076
+2024-11-07 03:04:49,168 [INFO]: Epoch: 016, Inference Time: 0.8705 secs
+2024-11-07 03:04:49,168 [INFO]: Epoch: 016, Train Loss: 0.8571, Train MAPE: inf, Train RMSE: 1.3430, Valid Loss: 0.5512, Valid MAPE: inf, Valid RMSE: 1.2283, Training Time: 16.3757/epoch
+2024-11-07 03:04:49,391 [INFO]: Iter: 000, Train Loss: 0.8293, Train MAPE: inf, Train RMSE: 1.4580
+2024-11-07 03:04:53,689 [INFO]: Iter: 050, Train Loss: 0.8841, Train MAPE: inf, Train RMSE: 1.3614
+2024-11-07 03:04:58,002 [INFO]: Iter: 100, Train Loss: 0.7089, Train MAPE: inf, Train RMSE: 0.9890
+2024-11-07 03:05:02,313 [INFO]: Iter: 150, Train Loss: 0.8088, Train MAPE: inf, Train RMSE: 1.1020
+2024-11-07 03:05:06,464 [INFO]: Epoch: 017, Inference Time: 0.8718 secs
+2024-11-07 03:05:06,465 [INFO]: Epoch: 017, Train Loss: 0.8464, Train MAPE: inf, Train RMSE: 1.3298, Valid Loss: 0.5277, Valid MAPE: inf, Valid RMSE: 1.1507, Training Time: 16.4241/epoch
+2024-11-07 03:05:06,680 [INFO]: Iter: 000, Train Loss: 0.8648, Train MAPE: inf, Train RMSE: 1.4298
+2024-11-07 03:05:10,989 [INFO]: Iter: 050, Train Loss: 0.8047, Train MAPE: inf, Train RMSE: 0.9406
+2024-11-07 03:05:15,310 [INFO]: Iter: 100, Train Loss: 0.8991, Train MAPE: inf, Train RMSE: 1.4285
+2024-11-07 03:05:19,617 [INFO]: Iter: 150, Train Loss: 0.7127, Train MAPE: inf, Train RMSE: 1.0908
+2024-11-07 03:05:23,761 [INFO]: Epoch: 018, Inference Time: 0.8701 secs
+2024-11-07 03:05:23,761 [INFO]: Epoch: 018, Train Loss: 0.8384, Train MAPE: inf, Train RMSE: 1.3317, Valid Loss: 0.5677, Valid MAPE: inf, Valid RMSE: 1.2169, Training Time: 16.4254/epoch
+2024-11-07 03:05:23,977 [INFO]: Iter: 000, Train Loss: 0.8200, Train MAPE: inf, Train RMSE: 1.1518
+2024-11-07 03:05:28,302 [INFO]: Iter: 050, Train Loss: 0.8552, Train MAPE: inf, Train RMSE: 1.2871
+2024-11-07 03:05:32,587 [INFO]: Iter: 100, Train Loss: 0.8143, Train MAPE: inf, Train RMSE: 1.2355
+2024-11-07 03:05:36,911 [INFO]: Iter: 150, Train Loss: 0.9531, Train MAPE: inf, Train RMSE: 1.5897
+2024-11-07 03:05:41,041 [INFO]: Epoch: 019, Inference Time: 0.8705 secs
+2024-11-07 03:05:41,041 [INFO]: Epoch: 019, Train Loss: 0.8409, Train MAPE: inf, Train RMSE: 1.3340, Valid Loss: 0.5184, Valid MAPE: inf, Valid RMSE: 1.1615, Training Time: 16.4084/epoch
+2024-11-07 03:05:41,041 [INFO]: Early Termination!
+2024-11-07 03:05:41,041 [INFO]: Average Training Time: 16.1848 secs/epoch
+2024-11-07 03:05:41,041 [INFO]: Average Inference Time: 0.8049 secs
+2024-11-07 03:05:42,494 [INFO]: Training finished. The valid loss on the best model is 0.4222.
+2024-11-07 03:05:42,502 [INFO]: Evaluate best model on test data for horizon 1, Test MAE: 0.4094, Test MAPE: inf, Test RMSE: 1.5526
+2024-11-07 03:05:42,511 [INFO]: Evaluate best model on test data for horizon 2, Test MAE: 0.4154, Test MAPE: inf, Test RMSE: 1.5605
+2024-11-07 03:05:42,518 [INFO]: Evaluate best model on test data for horizon 3, Test MAE: 0.4234, Test MAPE: inf, Test RMSE: 1.5763
+2024-11-07 03:05:42,524 [INFO]: Evaluate best model on test data for horizon 4, Test MAE: 0.4316, Test MAPE: inf, Test RMSE: 1.5918
+2024-11-07 03:05:42,530 [INFO]: Evaluate best model on test data for horizon 5, Test MAE: 0.4421, Test MAPE: inf, Test RMSE: 1.6120
+2024-11-07 03:05:42,539 [INFO]: Evaluate best model on test data for horizon 6, Test MAE: 0.4531, Test MAPE: inf, Test RMSE: 1.6332
+2024-11-07 03:05:42,539 [INFO]: On average over 12 horizons, Test MAE: 0.4292, Test MAPE: inf, Test RMSE: 1.5877
+2024-11-07 03:05:44,498 [INFO]: Total time spent: 328.6171 seconds

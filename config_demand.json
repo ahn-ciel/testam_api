@@ -1,0 +1,15 @@
+{
+    "VALUE": "ciel-dj_P_1_1h",
+    "device": "cuda:0",
+    "nhid": 32,
+    "batch_size": 32,
+    "num_nodes": 376,
+    "in_dim": 3,
+    "out_dim": 3,
+    "adjtype": "doubletransition",    
+    "adjdata": "",    
+    "data": "data/ciel-dj_P_3_1h/test_unit.npz",
+    "load_path": "experiment/ciel-dj_P_3_1h/ciel-dj_P_3_1h_exp1_best_0.42.pth",
+    "scaler": [1.22391993, 3.82967208],
+    "save": "experiment/ciel-dj_P_3_1h/ciel-dj_P_3_1h"
+  }

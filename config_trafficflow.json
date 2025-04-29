@@ -1,0 +1,15 @@
+{
+    "VALUE": "dj_23T_v2_3_1h_cValue",
+    "device": "cuda:0",
+    "nhid": 32,
+    "batch_size": 6,
+    "num_nodes": 637,
+    "in_dim": 3,
+    "out_dim": 3,
+    "adjtype": "doubletransition",    
+    "adjdata": "data/ciel/dongjakITS_v2_adjdata.pkl",    
+    "data": "data/dj_23T_v2_3_1h_cValue/test_unit.npz",
+    "load_path": "experiment/dj_23T_v2_3_1h_cValue_/dj_23T_v2_3_1h_cValue_exp1_best_1.13.pth",
+    "scaler": [23.5462007, 13.0605837],
+    "save": "experiment/dj_23T_v2_3_1h_cValue/dj_23T_v2_3_1h_cValue"
+  }
