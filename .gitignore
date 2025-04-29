@@ -4,3 +4,4 @@ experiment/dj_23T_v2_3_1h_cValue_/
 *.pt
 *.pkl
 experiment/
+data/
