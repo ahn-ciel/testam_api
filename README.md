@@ -4,6 +4,12 @@ ip: 211.115.111.56 (bak.ciel.co.kr)<br>
 - 데이터가 있는 경로<br>
   F:\RND_DATA\Ahn_Data\TESTAM_API<br>
 
+## api 실행
+server_demand.py : OD 수요예측 위한 추론 api<br>
+server_trian_demand.py : OD 수요예측 위한 학습 api<br>
+server_trafficflow.py : trafficflow 위한 추론 api<br>
+server_train_trafficflow.py : trafficflow 위한 학습 api<br>
+
 ## testam: trafficflow-adj data 
 - 특정 지역의 노드를 한번 만들어 두면 끝<br>
     - 이건 특별히 api(코드 모듈화) 까지 만들어둘 필요 없음.<br>
