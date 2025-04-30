@@ -4,10 +4,10 @@ ip: 211.115.111.56 (bak.ciel.co.kr)<br>
 - 데이터가 있는 경로<br>
   F:\RND_DATA\Ahn_Data\TESTAM_API<br>
 
-### testam_api
+## testam_api
 수요예측과 교통예측을 위한 api 
 
-### testam: trafficflow-adj data 
+## testam: trafficflow-adj data 
 - 특정 지역의 노드를 한번 만들어 두면 끝<br>
     - 이건 특별히 api(코드 모듈화) 까지 만들어둘 필요 없음.<br>
     - 생성하는 방법 담긴 .py <br>
@@ -65,7 +65,7 @@ LINK_ID,1020000101,1020000104,1020000201,1020000202,1020000301, ...<br>
 “adjdata.pkl”을 특정 위치에 놓고 train/ inference_config.json 파일 경로에 작성해서 사용하면 됌<br>
 <br>
 
-### testam: trafficflow data
+## testam: trafficflow data
 
 - 예시파일:<br>
      data/ciel/dongjakITS_2023_v2_0107_1231_cValue.csv    <br>
@@ -90,7 +90,7 @@ ime_ind_list=[0.00347222, 0.01041667, 0.01736111, ...]<br>
 생성한 데이터: "data/dj_23T_v2_3_1h_cValue/test_unit.npz"<br>
 <br>
 
-### testam: OD data<br>
+## testam: OD data<br>
 
 - 예시 : data/ciel/ciel-dj_P_3_1h<br>
 tetime_hms_list= ['00:00:00', '00:10:00', '00:20:00', ...]<br>
