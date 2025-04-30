@@ -58,6 +58,7 @@ LINK_ID,1020000101,1020000104,1020000201,1020000202,1020000301, ...<br>
 → 활용:<br>
 “adjdata.pkl”을 특정 위치에 놓고 train/ inference_config.json 파일 경로에 작성해서 사용하면 됌<br>
 <br>
+
 ### testam: trafficflow data
 
 - 예시파일:<br>
