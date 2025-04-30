@@ -1,3 +1,9 @@
+## data 
+Test Backup DB 에 접속해서 데이터를 가져와야 함<br>
+ip: 211.115.111.56 (bak.ciel.co.kr)<br>
+- 데이터가 있는 경로<br>
+  F:\RND_DATA\Ahn_Data\TESTAM_API<br>
+
 ### testam_api
 수요예측과 교통예측을 위한 api 
 
