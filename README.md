@@ -98,7 +98,14 @@ ime_ind_list=[0.00347222, 0.01041667, 0.01736111, ...]<br>
 <br>
 
 ## testam: OD data<br>
-
+- 참고: 위에 설명한 trafficflow data 생성 방법과 같음
+- 필요한 최소단위:<br>
+  10분씩 6개 1시간으로 구성한다면, 5개 과거 시간+ 1개 현재 시간 필요함.<br>
+- 1개 유닛 데이터 셋을 넣으려면 batch_size =offset 크기만 큼 넣어야 함.<br>
+  예: 10분 단위 1시간 데이터 셋이면 batch_size = 6<br>
 - 예시 : data/ciel/ciel-dj_P_3_1h<br>
 tetime_hms_list= ['00:00:00', '00:10:00', '00:20:00', ...]<br>
 time_ind_list= [0.0, 0.00694444, 0.01388889, 0.02083333, ...]<br>
+<br>
+→ generate_unit_data.py
+생성한 데이터: "data/ciel-dj_P_3_1h/test_unit.npz"
