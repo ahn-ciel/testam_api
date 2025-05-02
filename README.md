@@ -96,6 +96,9 @@ ime_ind_list=[0.00347222, 0.01041667, 0.01736111, ...]<br>
 → generate_unit_data.py <br>
 생성한 데이터: "data/dj_23T_v2_3_1h_cValue/test_unit.npz"<br>
 <br>
+"--traffic_df_stack" : 5개 과거 시간 데이터 입력
+"--traffic_df_cur" : 1개 현재 시간 데이터 입력
+
 
 ## testam: OD data<br>
 - 참고: 위에 설명한 trafficflow data 생성 방법과 같음
