@@ -96,8 +96,8 @@ ime_ind_list=[0.00347222, 0.01041667, 0.01736111, ...]<br>
 → generate_unit_data.py <br>
 생성한 데이터: "data/dj_23T_v2_3_1h_cValue/test_unit.npz"<br>
 <br>
-"--traffic_df_stack" : 5개 과거 시간 데이터 입력
-"--traffic_df_cur" : 1개 현재 시간 데이터 입력
+"--traffic_df_stack" : 5개 과거 시간 데이터 입력<br>
+"--traffic_df_cur" : 1개 현재 시간 데이터 입력<br>
 
 
 ## testam: OD data<br>
@@ -110,5 +110,5 @@ ime_ind_list=[0.00347222, 0.01041667, 0.01736111, ...]<br>
 tetime_hms_list= ['00:00:00', '00:10:00', '00:20:00', ...]<br>
 time_ind_list= [0.0, 0.00694444, 0.01388889, 0.02083333, ...]<br>
 <br>
-→ generate_unit_data.py
-생성한 데이터: "data/ciel-dj_P_3_1h/test_unit.npz"
+→ generate_unit_data.py<br>
+생성한 데이터: "data/ciel-dj_P_3_1h/test_unit.npz"<br>
