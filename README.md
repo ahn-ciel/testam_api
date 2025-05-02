@@ -1,3 +1,6 @@
+## Official Code of TESTAM
+https://github.com/HyunWookL/TESTAM<br>
+
 ## data 
 Test Backup DB 에 접속해서 데이터를 가져와야 함<br>
 ip: 211.115.111.56 (bak.ciel.co.kr)<br>
@@ -9,6 +12,7 @@ server_demand.py : OD 수요예측 위한 추론 api<br>
 server_trian_demand.py : OD 수요예측 위한 학습 api<br>
 server_trafficflow.py : trafficflow 위한 추론 api<br>
 server_train_trafficflow.py : trafficflow 위한 학습 api<br>
+- 실행방법 : (예) fastapi dev server_demand.py<br>
 
 ## testam: trafficflow-adj data 
 - 특정 지역의 노드를 한번 만들어 두면 끝<br>
