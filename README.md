@@ -13,7 +13,7 @@ server_demand.py : OD 수요예측 위한 추론 api<br>
 server_trian_demand.py : OD 수요예측 위한 학습 api<br>
 server_trafficflow.py : trafficflow 위한 추론 api<br>
 server_train_trafficflow.py : trafficflow 위한 학습 api<br>
-- 실행방법 : (예) fastapi dev server_demand.py<br>
+- 실행방법 : (예) fastapi dev server_demand.py -> 웹 브라우저에서 http://localhost:8000/predict-demand1 실행 <br>
 
 ## testam: trafficflow-adj data 
 - 특정 지역의 노드를 한번 만들어 두면 끝<br>
